@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94" height="200" viewBox="0 0 94 200" fill="none">
+  <defs>
+    <filter id="blur-filter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+    </filter>
+  </defs>
+
+  <path d="M93 73L0.5 2V198L93 73Z" stroke="#fff" fill="#ccc" filter="url(#blur-filter)"/>
+</svg>

@@ -1,0 +1,44 @@
+// Dark theme variables
+$dark-background: #1a1a1a;
+$dark-text: #ffffff;
+$dark-primary: #0d6efd;
+$dark-secondary: #6c757d;
+$dark-border: rgba(255, 255, 255, 0.1);
+$dark-card-bg: #2d2d2d;
+$dark-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+
+// Dark theme styles
+
+body {
+  background-color: $dark-background;
+}
+
+.app-dark {
+  background-color: $dark-background;
+  color: $dark-text;
+
+  .header {
+    background-color: $dark-card-bg;
+    box-shadow: $dark-shadow;
+    border-bottom: 1px solid $dark-border;
+  }
+
+  nav {
+    a {
+      color: $dark-primary;
+
+      &:hover {
+        color: lighten($dark-primary, 10%);
+      }
+    }
+  }
+
+  button {
+    background-color: $dark-primary;
+    color: $dark-text;
+
+    &:hover {
+      background-color: lighten($dark-primary, 10%);
+    }
+  }
+}

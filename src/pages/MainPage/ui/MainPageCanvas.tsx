@@ -425,7 +425,7 @@ const MainPageCanvas: React.FC<MainPageCanvasProps> = ({
 
   // --- МЕМОІЗАЦІЯ ---
   const memoElements = React.useMemo(() => elements, []);
-  const memoFootstepRoutes = React.useMemo(() => footstepRoutes, []);
+  // const memoFootstepRoutes = React.useMemo(() => footstepRoutes, []);
   const memoBuildings = React.useMemo(() => buildings, [buildings]);
   const memoRoads = React.useMemo(() => roads, [roads]);
 

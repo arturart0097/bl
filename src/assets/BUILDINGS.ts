@@ -1,4 +1,3 @@
-import type { Building } from "@/pages/MainPage/ui/MainPageCanvas";
 
 import r from "@/components/r.svg?url"
 import t from "@/components/t.svg?url"
@@ -15,6 +14,7 @@ import qwe2 from "@/components/qwe2.svg?url"
 import HomeUrl from "@/components/Home.svg?url"
 import a from "@/components/a.svg?url"
 import e from "@/components/e.svg?url"
+import type { Building } from "./types/mainpageCanvasTypes"
 
 export const defaultBuildings: Building[] = [
   { x: 30, y: 30, w: 284, h: 297, label: "A", icon: HomeUrl },

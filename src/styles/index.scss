@@ -1,21 +1,15 @@
-@import "variables/global";
-@import "themes/dark";
-@import "themes/normal";
 @import "app";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+body {
+  background: #222;
+}
 
 .app {
   min-height: 100vh;
-  padding: $container-padding;
-  
+
   .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: $spacing-unit * 3;
-    padding-bottom: $spacing-unit * 2;
-    border-bottom: 1px solid rgba($text-color, 0.1);
   }
 }

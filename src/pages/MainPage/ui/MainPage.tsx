@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import HomeUrl from "@/components/Home.svg?url"
+import HomeGreen from "@/components/HomeGreen.svg?url"
 import a from "@/components/a.svg?url"
 import e from "@/components/e.svg?url"
 import aRGB from "@/components/aRGB.svg?url"
@@ -39,10 +40,10 @@ const MainPage = () => {
   const isMobile = useMediaQuery({ maxWidth: 1366 });
 
   const defaultBuildingsRGB: Building[] = [
-    { x: 30, y: 30, w: 284, h: 287, label: "A", icon: settings.showColorGlow ? HomeUrl : HomeRGB, color: "#00ff00" },
+    { x: 35, y: 25, w: 274, h: 287, label: "A", icon: settings.showColorGlow ? HomeGreen : HomeRGB, blinking: settings.showColorGlow },
     { x: 370, y: 110, w: 104, h: 112, label: "B", icon: QweRGB },
     { x: 495, y: 65, w: 93, h: 159, label: "C", icon: qwe2RGB },
-    { x: 310, y: 210, w: 211.5, h: 170, label: "D1", icon: !settings.showGreyColor ? aRGB : a, blinking: settings.showGreyColor },
+    { x: 315, y: 217, w: 200, h: 153, label: "D1", icon: !settings.showGreyColor ? aRGB : a, blinking: settings.showGreyColor },
     { x: 267, y: 320, w: 80, h: 80, label: "D2", icon: bRGB },
     { x: 335, y: 370, w: 75, h: 75, label: "D3", icon: bRGB },
     { x: 405, y: 425, w: 70, h: 70, label: "D4", icon: cRGB },
@@ -52,9 +53,9 @@ const MainPage = () => {
     { x: 300, y: 405, w: 27, h: 30, label: "D8", icon: wRGB },
     { x: 265, y: 458, w: 30, h: 27, label: "W2", icon: wRGB },
     { x: 365, y: 495, w: 30, h: 27, label: "W3", icon: wRGB },
-    { x: 397, y: 495, w: 191, h: 120, label: "E1", icon: !settings.showGreyColor ? eRGB : e, blinking: settings.showGreyColor },
-    { x: 120, y: 485, w: 240, h: 115, label: "R1", icon: rRGB },
-    { x: 20, y: 375, w: 111, h: 140, label: "T1", icon: tRGB },
+    { x: 403, y: 495, w: 180, h: 100, label: "E1", icon: !settings.showGreyColor ? eRGB : e, blinking: settings.showGreyColor },
+    { x: 133, y: 485, w: 220, h: 110, label: "R1", icon: rRGB },
+    { x: 20, y: 375, w: 101, h: 140, label: "T1", icon: tRGB },
     { x: 25, y: 75, w: 51, h: 100, label: "Y1", icon: yRGB },
     { x: 25, y: 515, w: 30, h: 70, label: "Y2", icon: yRGB },
     { x: 60, y: 35, w: 55, h: 25, label: "U1", icon: uRGB },

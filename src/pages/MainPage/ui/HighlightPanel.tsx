@@ -26,19 +26,21 @@ const HighlightPanel: React.FC<HighlightPanelProps> = ({ selectedRGB, setSelecte
         {/* <label className={styles.checkboxLabel} style={{ fontSize: 14, fontWeight: 700, color: '#bfbfbf' }}> */}
           <input
             type="checkbox"
-            className={`${styles.checkbox} ${styles.checkboxGreen}`}
+            className={`${styles.checkbox} ${styles.checkboxRGB}`}
             checked={selectedRGB}
             onChange={e => setSelectedRGB(e.target.checked)}
+            name="rgb"
           />
           {/* Увімкнути RGB тему
-        </label> */}
+            </label> */}
         {/* <label className={styles.checkboxLabel} style={{ fontSize: 14, fontWeight: 700, color: '#bfbfbf' }}> */}
-          <input
+          {/* <input
             type="checkbox"
-            className={`${styles.checkbox} ${styles.checkboxGreen}`}
+            className={`${styles.checkbox} ${styles.checkboxDefault}`}
             checked={!selectedRGB}
             onChange={e => setSelectedRGB(!e.target.checked)}
-          />
+            name="default"
+          /> */}
           {/* Увімкнути білу тему
         </label> */}
         {/* <label className={styles.checkboxLabel} style={{ fontSize: 14, fontWeight: 700, color: '#bfbfbf' }}> */}
@@ -47,24 +49,27 @@ const HighlightPanel: React.FC<HighlightPanelProps> = ({ selectedRGB, setSelecte
             className={`${styles.checkbox} ${styles.checkboxGreen}`}
             checked={settings.showColorGlow}
             onChange={e => setSettings(prev => ({ ...prev, showColorGlow: e.target.checked }))}
+            name="greenBuild"
           />
           {/* Увімкнути зелену підсвітку для будинків БЛАГО
         </label>
         <label className={styles.checkboxLabel} style={{ fontSize: 14, fontWeight: 700, color: '#bfbfbf' }}> */}
           <input
             type="checkbox"
-            className={`${styles.checkbox} ${styles.checkboxGreen}`}
+            className={`${styles.checkbox} ${styles.checkboxGrey}`}
             checked={settings.showGreyColor}
             onChange={e => setSettings(prev => ({ ...prev, showGreyColor: e.target.checked }))}
+            name="greyBuild"
           />
           {/* Увімкнути сіру підсвітку для будинків
         </label>
         <label className={styles.checkboxLabel} style={{ fontSize: 14, fontWeight: 700, color: '#bfbfbf' }}> */}
           <input
             type="checkbox"
-            className={`${styles.checkbox} ${styles.checkboxGreen}`}
+            className={`${styles.checkbox} ${styles.checkboxRoad}`}
             checked={settings.showRoads}
             onChange={e => setSettings(prev => ({ ...prev, showRoads: e.target.checked }))}
+            name="showRoad"
           />
           {/* Показати дороги
         </label> */}

@@ -1,0 +1,9 @@
+<svg width="466" height="479" viewBox="0 0 466 479" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="blur-filter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+    </filter>
+  </defs>
+
+<path d="M227 1.5L473.25 204.75L431 254L395.25 299.25L380.75 288.25L331.5 254L357.5 217.5L321 186L250.5 131L139 275L174 304L208 333.5L244.5 363L279.875 392.625L285.875 386.125L321 418L289.812 455.438L262.812 490.438L147.25 398.5L1.5 275C1.5 275 68.3619 192.143 111.75 139.5C156.407 85.3167 227 1.5 227 1.5Z" fill="#0FFF00" stroke="#0FFF00"/>
+</svg>

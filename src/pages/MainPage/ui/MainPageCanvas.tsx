@@ -216,7 +216,15 @@ const MemoBuildings = React.memo(function MemoBuildings({ buildings, blinkTime, 
             )}
 
             {/* {b.label &&
-              <Text text={b.label} x={100} y={100} fill="#fff" fontSize={20} />
+              <Text 
+                text={b.label} 
+                x={b.w / 2 - 10} 
+                y={b.h / 2 - 12} 
+                fill="#fff" 
+                fontSize={20} 
+                fontStyle="bold"
+                align="center"
+              />
             } */}
 
             {iconImage && (

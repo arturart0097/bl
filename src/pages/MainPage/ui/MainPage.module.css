@@ -122,8 +122,30 @@
   outline: 2px solid #38a169;
   box-shadow: 0 0 0 3px #68d39155;
 }
+.checkboxRGB {
+  accent-color: linear-gradient(90deg, #ff00cc 0%, #3333ff 100%);
+  background: linear-gradient(90deg, #ff00cc 0%, #3333ff 100%);
+  border: 2px solid #a0a0ff;
+}
+.checkboxDefault {
+  accent-color: #fff;
+  background: #fff;
+  border: 2px solid #bbb;
+}
 .checkboxGreen {
   accent-color: #38a169;
+  background: #38a169;
+  border: 2px solid #38a169;
+}
+.checkboxGrey {
+  accent-color: #888;
+  background: #888;
+  border: 2px solid #888;
+}
+.checkboxRoad {
+  accent-color: #ffd600;
+  background: #ffd600;
+  border: 2px solid #ffd600;
 }
 .closeRow {
   margin-top: 32px;

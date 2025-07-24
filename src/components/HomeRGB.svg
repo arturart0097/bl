@@ -1,9 +1,3 @@
-<svg width="467" height="479" viewBox="0 0 467 479" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="blur-filter" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="4" />
-    </filter>
-  </defs>
-
-<path d="M395 283L344 239.5L371 206L244.5 100L107.5 263.5L249 382L255 375.5L303.5 417L251 478L1.5 270L229.5 1L465.5 199.5L395 283Z" stroke="#fff" />
+<svg width="467" height="479" viewBox="0 0 475 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M226.5 1L472.75 204.25L430.5 253.5L394.75 298.75L380.25 287.75L337.5 253.5L362.5 217.5L319 179.5L249.5 119.5L191.438 191L133.375 262.5L178 306L213 333L249.5 363L258 353L292 379.5L319 402L280.5 449L254 485L146.75 398L1 274.5C1 274.5 67.8619 191.643 111.25 139C155.907 84.8167 226.5 1 226.5 1Z" stroke="#fff"/>
 </svg>

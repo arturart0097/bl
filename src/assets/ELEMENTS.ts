@@ -11,7 +11,7 @@ export const ELEMENTS = [
     { x: 115, y: 375, w: 35, h: 32, label: "doroga", icon: doroga, r: 35 },
     { x: 465, y: 340, w: 28, h: 28, label: "doroga", icon: doroga, r: -53 },
     { x: 470, y: 225, w: 125, h: 265, label: "bardur", icon: bardur, r: 0 },
-    { x: 10, y: 35, w: 455, h: 235, label: "s", icon: s, r: 0 },
+    { x: 63, y: 0, w: 405, h: 250, label: "s", icon: s, r: 0 },
     { x: 20, y: 210, w: 155, h: 135, label: "kuchi", icon: kuchi, r: 0 },
     { x: 40, y: 470, w: 110, h: 125, label: "kuchi3", icon: kuchi3, r: -5 },
     { x: 470, y: 55, w: 60, h: 50, label: "kuchi2", icon: kuchi2, r: -5 },

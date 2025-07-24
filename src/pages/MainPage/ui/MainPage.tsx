@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from "react"
-import HomeUrl from "@/components/Home.svg?url"
 import HomeGreen from "@/components/HomeGreen.svg?url"
 import a from "@/components/a.svg?url"
 import e from "@/components/e.svg?url"
@@ -41,7 +40,7 @@ const MainPage = () => {
 
   const defaultBuildingsRGB: Building[] = [
     { x: 35, y: 25, w: 274, h: 287, label: "A", icon: settings.showColorGlow ? HomeGreen : HomeRGB, blinking: settings.showColorGlow },
-    { x: 370, y: 110, w: 104, h: 112, label: "B", icon: QweRGB },
+    { x: 370, y: 110, w: 104, h: 105, label: "B", icon: QweRGB },
     { x: 495, y: 65, w: 93, h: 159, label: "C", icon: qwe2RGB },
     { x: 315, y: 217, w: 200, h: 153, label: "D1", icon: !settings.showGreyColor ? aRGB : a, blinking: settings.showGreyColor },
     { x: 267, y: 320, w: 80, h: 80, label: "D2", icon: bRGB },
@@ -49,19 +48,19 @@ const MainPage = () => {
     { x: 405, y: 425, w: 70, h: 70, label: "D4", icon: cRGB },
     { x: 225, y: 380, w: 77, h: 77, label: "D5", icon: dRGB },
     { x: 295, y: 430, w: 77, h: 77, label: "D6", icon: dRGB },
-    { x: 165, y: 355, w: 57, h: 57, label: "D7", icon: qRGB },
+    { x: 165, y: 348, w: 57, h: 60, label: "D7", icon: qRGB },
     { x: 300, y: 405, w: 27, h: 30, label: "D8", icon: wRGB },
-    { x: 265, y: 458, w: 30, h: 27, label: "W2", icon: wRGB },
-    { x: 365, y: 495, w: 30, h: 27, label: "W3", icon: wRGB },
+    { x: 267, y: 452, w: 30, h: 27, label: "W2", icon: wRGB },
+    { x: 370, y: 490, w: 30, h: 27, label: "W3", icon: wRGB },
     { x: 403, y: 495, w: 180, h: 100, label: "E1", icon: !settings.showGreyColor ? eRGB : e, blinking: settings.showGreyColor },
     { x: 133, y: 485, w: 220, h: 110, label: "R1", icon: rRGB },
-    { x: 20, y: 375, w: 101, h: 140, label: "T1", icon: tRGB },
-    { x: 25, y: 75, w: 51, h: 100, label: "Y1", icon: yRGB },
+    { x: 20, y: 365, w: 101, h: 150, label: "T1", icon: tRGB },
+    { x: 25, y: 60, w: 60, h: 125, label: "Y1", icon: yRGB },
     { x: 25, y: 515, w: 30, h: 70, label: "Y2", icon: yRGB },
-    { x: 60, y: 35, w: 55, h: 25, label: "U1", icon: uRGB },
-    { x: 240, y: 35, w: 55, h: 25, label: "U2", icon: uRGB },
+    { x: 60, y: 35, w: 55, h: 30, label: "U1", icon: uRGB },
+    { x: 240, y: 35, w: 55, h: 30, label: "U2", icon: uRGB },
     { x: 290, y: 35, w: 95, h: 45, label: "U3", icon: uRGB },
-    { x: 480, y: 35, w: 95, h: 45, label: "F1", icon: fRGB }
+    { x: 480, y: 35, w: 90, h: 45, label: "F1", icon: fRGB, }
   ]
 
   return (
